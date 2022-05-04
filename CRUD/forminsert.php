@@ -1,5 +1,6 @@
 <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
 <?php include("scripts.php"); ?>
+
 <span>Nome do Cliente:</span></br>
 	    <input type="text" id="nome_cliente"/>
         <br/>
