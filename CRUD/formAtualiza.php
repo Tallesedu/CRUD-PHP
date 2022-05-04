@@ -15,7 +15,7 @@ include("scripts.php");
 	$fetch = $trazCliente->fetchAll();
 
 	echo '
-
+	
 		<input type="text" id="nome" value="'.$fetch[0]['nome_cliente'].'"/><br><br>
 		<input type="text" id="cidade" value="'.$fetch[0]['cidade_cliente'].'"/><br><br>
 		<input type="text" id="email" value="'.$fetch[0]['email_cliente'].'"/><br><hr><br>
@@ -27,8 +27,5 @@ include("scripts.php");
 		<br>
 
 		<div id="mensagens"></div>
-
-
 	';
-
 ?>
